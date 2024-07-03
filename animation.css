@@ -1,0 +1,74 @@
+.animation {
+    display: flex;
+    margin: 0 0.5rem;
+    animation: animation 2s; 
+}
+
+@keyframes animation {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+.animation-orta {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: animation-orta 1s; 
+}
+
+@keyframes animation-orta {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -30%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.animation-chap {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: animation-chap 1s; 
+}
+
+@keyframes animation-chap {
+    from {
+        opacity: 0;
+        transform: translate3d(-30%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+@keyframes animation-ong {
+    from {
+        opacity: 0;
+        transform: translate3d(30%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.animation-ong {
+    display: inline-block; 
+    margin: 0 0.5rem;
+    animation: animation-ong 1s;
+}
+
+
