@@ -773,6 +773,10 @@ ul li a:hover {
 
 
 }
+.features-2-box-container{
+    overflow: hidden;
+    border-radius: 20px;
+}
 
 .features-2-container-1 {
     background-image: url(img/Pattern\ Light-3.png);
